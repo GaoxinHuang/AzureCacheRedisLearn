@@ -1,0 +1,19 @@
+2.2. why would you cache data   
+一. Client -> Website -> Data in cache? -> Cache
+二. why?
+1.  Increase performance
+2.  Increase availability
+
+三. 如何选择 cache data 
+1.  Simple data
+2.  access often and no change often
+
+四. Invalidation policy
+1.  Set the right policy 
+2.  Balance between performance & consistency 
+
+五. To optimize performance 
+1.  Pre-populate the cache
+2.  Pick right data to pre-populate
+
+六.	github 项目的链接: https://github.com/bmaluijb/NationalCookies
