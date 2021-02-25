@@ -1,0 +1,26 @@
+二. 步骤
+1.  azure redis cache - Redis cache
+2.  New Redis Cache
+(1) DNS name(地址)
+....
+(5) Pricing tier -
+a.  C0-C6 Basic(可以用于 dev environment) - dedicated services: 所以不能共享你的cache infrastructure with other customers
+b.  c0-c6 Standard & Premium: 用于prod, Premium 功能更多, 性能更强
+
+2.  Redis Cluster -  可以不设置
+3.  Redis data persistence - 可以不设置
+4.  Virtual Network - 可以不设置
+
+三. 生成后
+1.  Non-SSL port disable (必须 Https)
+2.  Show access key -> 可以得到 connect key
+
+3.  Setting
+(1) Advanced settings - 来获取更多配置
+(2) Scale - 价钱
+(3) Redis data persistence
+(4) Schedule updates - azure update redis 版本的时间
+(5) Adminstartion 
+    a.  Import data
+    b.  Export data
+    c.  Reboots

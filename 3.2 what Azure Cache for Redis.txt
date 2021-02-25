@@ -1,0 +1,27 @@
+3.2 What is Azure cache for Redis;
+一. why 
+1.  Provides in-memory data for optimal speed
+2.  full managed 
+3.  Based on the open-source Redis cache
+4.  Stores data in: String, hashes, lists and Stores
+
+5.  Advanced features:
+(1) Geo-replication (high availability)
+a.  不同国家可以被封
+
+(2) Cluster (more performance)
+b.  可以多个data 作为一个cluster
+
+(3) Data persistence (backups) 
+
+二. Azure cache for Redis Data types 
+1.  Strings (max 512MB)
+(1) Append
+(2) Incr, Decr
+
+2.  Set (only Unique Values)
+"Third","Second"
+
+3.  Lists(ordered by sequence)
+4.  Hashes (unordered)
+
